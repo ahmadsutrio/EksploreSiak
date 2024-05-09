@@ -3,3 +3,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .bg-gradient-primary{
+        @apply bg-gradient-to-br mt-5  from-[#9EBC4C] to-[#7FC05B]
+    }
+}
