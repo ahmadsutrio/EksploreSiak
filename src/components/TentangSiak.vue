@@ -6,7 +6,7 @@
     <div class="absolute lg:top-16 md:top-11 lg:left-24 md:left-7"  data-aos="fade-right">
       <div class="rounded-full md:size-5 lg:size-11 bg-gradient-primary"></div>
     </div>
-    <div class="absolute flex md:gap-2 md:bottom-6 md:right-12 lg:right-36" data-aos="zoom-in-left">
+    <div class="absolute flex md:gap-2 md:bottom-6 md:right-12 lg:right-36" >
       <div class="rounded-full md:size-4 lg:size-5 bg-gradient-primary"></div>
       <div class="rounded-full md:size-4 lg:size-5 bg-gradient-primary"></div>
       <div class="rounded-full md:size-4 lg:size-5 bg-gradient-primary"></div>

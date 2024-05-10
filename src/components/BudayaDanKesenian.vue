@@ -1,24 +1,24 @@
 <template>
-  <div 
+  <div data-aos="fade-up"
     class="relative grid min-w-full grid-cols-12 px-5 py-10 border-t-2 border-b-2 border-dashed border-primary lg:py-0 lg:pb-20 lg:pt-14" 
   >
     <h3
-      class="block col-span-12 text-3xl font-semibold lg:hidden md:col-start-2 md:col-span-10 text-primary" data-aos="zoom-in-right"
+      class="block col-span-12 text-3xl font-semibold lg:hidden md:col-start-2 md:col-span-10 text-primary" 
     >
       Kesenian dan <br />Budaya Khas Siak
     </h3>
     <h3
-      class="text-center md:text-start hidden col-span-12 lg:col-span-10 lg:col-start-2 lg:mx-20 md:col-start-2 lg:block font-semibold lg:font-bold text-3xl lg:text-[2.5rem] mt-3 text-primary" data-aos="zoom-in-right"
+      class="text-center md:text-start hidden col-span-12 lg:col-span-10 lg:col-start-2 lg:mx-20 md:col-start-2 lg:block font-semibold lg:font-bold text-3xl lg:text-[2.5rem] mt-3 text-primary" 
     >
       Kesenian dan
     </h3>
     <h3
-      class="text-center md:text-start hidden col-span-12 lg:col-span-10 lg:col-start-2 lg:mx-20 md:col-start-2 lg:block font-semibold lg:font-bold text-3xl lg:text-[2.5rem] mt-3 text-primary" data-aos="zoom-in-right"
+      class="text-center md:text-start hidden col-span-12 lg:col-span-10 lg:col-start-2 lg:mx-20 md:col-start-2 lg:block font-semibold lg:font-bold text-3xl lg:text-[2.5rem] mt-3 text-primary" 
     >
       Budaya Khas Siak
     </h3>
     <p
-      class="text-sm text-justify lg:text-[1.1rem] text-paragraph lg:leading-[1.9rem] col-span-12 lg:col-span-10 lg:col-start-2 lg:mx-20 md:col-start-2 md:col-span-10 mt-5" data-aos="zoom-in-right"
+      class="text-sm text-justify lg:text-[1.1rem] text-paragraph lg:leading-[1.9rem] col-span-12 lg:col-span-10 lg:col-start-2 lg:mx-20 md:col-start-2 md:col-span-10 mt-5" 
     >
       Dalam situs ini, Anda akan menemukan informasi yang mendalam tentang beragam
       kesenian dan budaya khas Siak. Dari Tarian Zapin yang memukau, Marwas yang merdu,
@@ -27,7 +27,7 @@
     </p>
 
     <div
-      class="flex col-span-12 gap-5 mt-6 overflow-x-auto md:justify-center lg:justify-start lg:ms-20 md:flex-wrap md:col-start-2 md:col-span-10 lg:gap-10" data-aos="zoom-in-left"
+      class="flex col-span-12 gap-5 mt-6 overflow-x-auto md:justify-center lg:justify-start lg:ms-20 md:flex-wrap md:col-start-2 md:col-span-10 lg:gap-10" 
     >
       <div class="w-48 lg:w-[20rem] lg:h-[20.7rem]">
         <div
@@ -96,7 +96,7 @@
     </div>
   </div>
 
-  <div class="relative grid grid-cols-12 grid-rows-1 py-5 overflow-hidden md:py-5 lg:mx-16">
+  <div class="relative grid grid-cols-12 grid-rows-1 py-5 overflow-hidden md:py-5 lg:mx-16" data-aos="fade-up">
     <div
       class="relative grid grid-cols-12 col-span-12 mx-5 lg:col-span-10 lg:col-start-2 border-heading md:mx-8"
     >
