@@ -1,5 +1,5 @@
 <template>
-  <div class="grid grid-cols-12 lg:mx-20">
+  <div class="grid grid-cols-12 lg:mx-20" data-aos="fade-up">
     <div class="col-span-12 px-5 md:col-span-10 md:col-start-2">
       <h3 class="text-2xl font-semibold text-primary lg:text-[2rem] lg:mt-14">KONTAK KAMI</h3>
       <p class="text-paragraph text-sm text-justify mt-3 lg:text-[1.1rem] lg:leading-7">

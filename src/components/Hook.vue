@@ -1,5 +1,5 @@
 <template>
-  <div class="relative px-5 py-10 lg:mt-28 mt-16 mb-10 lg:py-20 bg-gradient-primary">
+  <div class="relative px-5 py-10 lg:mt-28 mt-16 mb-10 lg:py-20 bg-gradient-primary" data-aos="fade-up">
     <img
       src="../assets/img/Vector 4.webp" alt="vector" title="vector"
       class="absolute  scale-[2.6]  md:-top-4 md:scale-[1.6] lg:scale-110 lg:-top-[1.7rem] left-0 right-0 -top-3"

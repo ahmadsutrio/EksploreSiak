@@ -1,24 +1,24 @@
 <template>
   <div 
-    class="relative grid min-w-full grid-cols-12 px-5 py-10 border-t-2 border-b-2 border-dashed border-primary lg:py-0 lg:pb-20 lg:pt-14"
+    class="relative grid min-w-full grid-cols-12 px-5 py-10 border-t-2 border-b-2 border-dashed border-primary lg:py-0 lg:pb-20 lg:pt-14" 
   >
     <h3
-      class="block col-span-12 text-3xl font-semibold lg:hidden md:col-start-2 md:col-span-10 text-primary"
+      class="block col-span-12 text-3xl font-semibold lg:hidden md:col-start-2 md:col-span-10 text-primary" data-aos="zoom-in-right"
     >
       Kesenian dan <br />Budaya Khas Siak
     </h3>
     <h3
-      class="text-center md:text-start hidden col-span-12 lg:col-span-10 lg:col-start-2 lg:mx-20 md:col-start-2 lg:block font-semibold lg:font-bold text-3xl lg:text-[2.5rem] mt-3 text-primary"
+      class="text-center md:text-start hidden col-span-12 lg:col-span-10 lg:col-start-2 lg:mx-20 md:col-start-2 lg:block font-semibold lg:font-bold text-3xl lg:text-[2.5rem] mt-3 text-primary" data-aos="zoom-in-right"
     >
       Kesenian dan
     </h3>
     <h3
-      class="text-center md:text-start hidden col-span-12 lg:col-span-10 lg:col-start-2 lg:mx-20 md:col-start-2 lg:block font-semibold lg:font-bold text-3xl lg:text-[2.5rem] mt-3 text-primary"
+      class="text-center md:text-start hidden col-span-12 lg:col-span-10 lg:col-start-2 lg:mx-20 md:col-start-2 lg:block font-semibold lg:font-bold text-3xl lg:text-[2.5rem] mt-3 text-primary" data-aos="zoom-in-right"
     >
       Budaya Khas Siak
     </h3>
     <p
-      class="text-sm text-justify lg:text-[1.1rem] text-paragraph lg:leading-[1.9rem] col-span-12 lg:col-span-10 lg:col-start-2 lg:mx-20 md:col-start-2 md:col-span-10 mt-5"
+      class="text-sm text-justify lg:text-[1.1rem] text-paragraph lg:leading-[1.9rem] col-span-12 lg:col-span-10 lg:col-start-2 lg:mx-20 md:col-start-2 md:col-span-10 mt-5" data-aos="zoom-in-right"
     >
       Dalam situs ini, Anda akan menemukan informasi yang mendalam tentang beragam
       kesenian dan budaya khas Siak. Dari Tarian Zapin yang memukau, Marwas yang merdu,
@@ -27,7 +27,7 @@
     </p>
 
     <div
-      class="flex col-span-12 gap-5 mt-6 overflow-x-auto md:justify-center lg:justify-start lg:ms-20 md:flex-wrap md:col-start-2 md:col-span-10 lg:gap-10"
+      class="flex col-span-12 gap-5 mt-6 overflow-x-auto md:justify-center lg:justify-start lg:ms-20 md:flex-wrap md:col-start-2 md:col-span-10 lg:gap-10" data-aos="zoom-in-left"
     >
       <div class="w-48 lg:w-[20rem] lg:h-[20.7rem]">
         <div
@@ -120,9 +120,9 @@
 
     <!-- card -->
     <div
-      class="relative grid grid-cols-12 col-span-12 p-4 m-5 text-center border shadow-lg animate__animated border-opacity-20 lg:col-span-10 lg:col-start-2 border-heading md:m-8 md:py-7"
+      class="relative grid grid-cols-12 col-span-12 p-4 m-5 text-center border shadow-lg animate__animated border-opacity-20 lg:col-span-10 lg:col-start-2 border-heading md:m-8 md:py-7" 
       v-show="number_card === 1"
-:class="[{ 'animate__backInRight': isRight }, 'animate__backInLeft']"
+:class="[{ 'animate__backInRight': isRight }, 'animate__backInLeft']" 
     >
       <div
         class="content-center col-span-12 text-center md:col-span-6 md:ps-7 lg:col-span-6 lg:col-start-1 lg:ps-20 md:text-start"
