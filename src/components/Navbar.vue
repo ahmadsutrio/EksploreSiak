@@ -1,7 +1,7 @@
 <template>
   <div class="relative">
     <div
-      class="fixed top-0 left-0 right-0 z-50 flex lg:justify-around justify-between min-w-full px-5 lg:px-14 py-2 md:items-center md:px-10 backdrop-blur-sm bg-white/10"
+      class="fixed top-0 left-0 right-0 z-[100] flex lg:justify-around justify-between min-w-full px-5 lg:px-14 py-2 md:items-center md:px-10 md:backdrop-blur-sm md:bg-white/5 bg-white/50"
     >
       <!-- <img
         src="../components/icons/Logo.svg"

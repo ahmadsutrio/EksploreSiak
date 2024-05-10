@@ -1,8 +1,8 @@
 <template>
   <div class="relative min-w-full pb-10 bg-primary-bg pt-14 lg:pt-24 ">
-    <div class="absolute -top-10 lg:-top-[4.7rem] left-0 right-0 flex justify-center">
-      <div class="flex justify-center border-8 rounded-full size-20 lg:size-36 bg-primary border-primary-bg">
-      <img src="../components/icons/down.svg" alt="icon" title="icon" class="block mt-3 size-8 lg:size-16 lg:mt-7 ">
+    <div class="absolute -top-10 lg:-top-[3.4rem] left-0 right-0 flex justify-center">
+      <div class="flex justify-center border-8 rounded-full size-20 lg:size-28 bg-primary border-primary-bg">
+      <img src="../components/icons/down.svg" alt="icon" title="icon" class="block mt-3 size-8 lg:size-14 lg:mt-4 ">
       </div>
     </div>
 
