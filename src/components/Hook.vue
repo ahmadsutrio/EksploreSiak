@@ -1,15 +1,15 @@
 <template>
-  <div class="mt-16 py-10 lg:py-20 mb-10 relative px-5 bg-gradient-primary">
+  <div class="relative px-5 py-10 mt-16 mb-10 lg:py-20 bg-gradient-primary">
     <img
-      src="../assets/img/Vector 4.png" alt=""
+      src="../assets/img/Vector 4.webp" alt="vector" title="vector"
       class="absolute  scale-[2.6]  md:-top-4 md:scale-[1.6] lg:scale-110 lg:-top-[1.7rem] left-0 right-0 -top-3"
     />
     <img
-      src="../assets/img/Vector 5.png" alt=""
+      src="../assets/img/Vector 5.webp" alt="vector" title="vector"
       class="absolute block scale-[2.6]  md:-bottom-4 md:scale-[1.6] lg:scale-110 lg:-bottom-6 left-0 right-0 -bottom-3"
     />
 
-    <h3 class="text-3xl block lg:hidden uppercase font-semibold text-center text-white">
+    <h3 class="block text-3xl font-semibold text-center text-white uppercase lg:hidden">
       Mulai Jelajahi <br />
       Budaya Siak Sekarang
     </h3>

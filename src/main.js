@@ -1,5 +1,5 @@
 import './assets/css/style.css'
-import './assets/css/swiper-bundle.min.css'
+
 import 'animate.css';
 
 

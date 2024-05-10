@@ -10,24 +10,24 @@
         sampaikan.
       </p>
     </div>
-    <div class="col-span-12  px-5 mt-10">
+    <div class="col-span-12 px-5 mt-10">
       <div class="grid grid-cols-12">
-        <div class="col-span-12  md:col-span-5 md:col-start-7 lg:col-span-5 lg:col-start-7 md:order-3">
-          <form action="" class="w-full flex flex-col gap-4" method="post">
-           <div class="lg:flex gap-3">
+        <div class="col-span-12 md:col-span-5 md:col-start-7 lg:col-span-5 lg:col-start-7 md:order-3">
+          <form action="" class="flex flex-col w-full gap-4" method="post">
+           <div class="gap-3 lg:flex">
             <input
               type="text"
               name=""
               id=""
               placeholder="Nama Anda"
-              class="py-2 px-3 text-sm outline-none ring-1 ring-primary rounded-lg w-full"
+              class="w-full px-3 py-2 mb-3 text-sm rounded-lg outline-none lg:mb-0 ring-1 ring-primary"
             />
             <input
               type="email"
               name=""
               id=""
               placeholder="Email Anda"
-              class="py-2 px-3 text-sm outline-none ring-1 ring-primary rounded-lg w-full"
+              class="w-full px-3 py-2 text-sm rounded-lg outline-none ring-1 ring-primary"
             />
            </div>
             <textarea
@@ -36,37 +36,38 @@
               cols="30"
               rows="3"
               placeholder="Masukan Pesan"
-              class="resize-none py-2 px-3 text-sm outline-none ring-1 ring-primary rounded-lg w-full"
+              class="w-full px-3 py-2 text-sm rounded-lg outline-none resize-none ring-1 ring-primary"
             ></textarea>
-            <button class="bg-gradient-primary w-full py-2 rounded-lg text-white">
+            <button class="w-full py-2 text-white rounded-lg bg-gradient-primary" aria-label="kirim-pesan">
               Kirim
             </button>
           </form>
         </div>
       <div class="col-span-12 md:px-0 md:col-span-4 md:order-2 md:col-start-2 lg:col-span-3 lg:col-start-2 ">
-        <h4 class="text-xl text-primary font-semibold mt-5 md:mt-0  mb-3">Sosial Media</h4>
+        <h4 class="mt-5 mb-3 text-xl font-semibold text-primary md:mt-0">Sosial Media</h4>
         <div class="flex justify-between md:block lg:flex">
           <div class="">
             <a href="" class="flex items-center gap-2">
               <img
                 src="../components/icons/ic_baseline-facebook.svg"
-                alt=""
-                class="w-12"
+                alt="facebook"
+                title="facebook"
+                class="size-12"
               />
               <span class="text-[1rem] text-primary font-semibold">Ahmad Sutrio</span>
             </a>
             <a href="" class="flex items-center gap-2">
-              <img src="../components/icons/ri_instagram-fill.svg" alt="" class="w-12" />
+              <img src="../components/icons/ri_instagram-fill.svg" alt="instagram" title="instagram" class="size-12" />
               <span class="text-[1rem] text-primary font-semibold">With_yoo</span>
             </a>
           </div>
           <div class="">
             <a href="" class="flex items-center gap-2">
-              <img src="../components/icons/ri_github-fill.svg" alt="" class="w-12" />
+              <img src="../components/icons/ri_github-fill.svg" alt="github" title="github" class="size-12" />
               <span class="text-[1rem] text-primary font-semibold">ahmadsutrio</span>
             </a>
             <a href="" class="flex items-center gap-2">
-              <img src="../components/icons/mdi_linkedin.svg" alt="" class="w-12" />
+              <img src="../components/icons/mdi_linkedin.svg" alt="linkedin" title="linkedin" class="size-12" />
               <span class="text-[1rem] text-primary font-semibold">ahmadsutrio</span>
             </a>
           </div>
@@ -75,12 +76,12 @@
       </div>
     </div>
   </div>
-    <div class="w-full bg-gradient-primary py-3 mt-10 text-center">
-      <span class="text-white text-sm md:hidden block"
+    <div class="w-full py-3 mt-10 text-center bg-gradient-primary">
+      <span class="block text-sm text-white md:hidden"
         >©️ Copyright 2024 with_yoo <br />
         Web design and development</span
       >
-      <span class="text-white text-sm hidden md:block"
+      <span class="hidden text-sm text-white md:block"
         >©️ COpyright 2024 with_yoo  |  Web design and development</span
       >
     </div>

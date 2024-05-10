@@ -1,9 +1,9 @@
 <template>
-  <div
-    class="min-w-full grid grid-cols-12 px-5 border-t-2 border-b-2 border-dashed relative border-primary py-10 lg:py-0 lg:pb-20 lg:pt-14"
+  <div 
+    class="relative grid min-w-full grid-cols-12 px-5 py-10 border-t-2 border-b-2 border-dashed border-primary lg:py-0 lg:pb-20 lg:pt-14"
   >
     <h3
-      class="text-3xl lg:hidden block col-span-12 md:col-start-2 md:col-span-10 text-primary font-semibold"
+      class="block col-span-12 text-3xl font-semibold lg:hidden md:col-start-2 md:col-span-10 text-primary"
     >
       Kesenian dan <br />Budaya Khas Siak
     </h3>
@@ -27,15 +27,15 @@
     </p>
 
     <div
-      class="flex overflow-x-auto md:justify-center lg:justify-start lg:ms-20 col-span-12 md:flex-wrap md:col-start-2 md:col-span-10 lg:gap-10 gap-5 mt-6"
+      class="flex col-span-12 gap-5 mt-6 overflow-x-auto md:justify-center lg:justify-start lg:ms-20 md:flex-wrap md:col-start-2 md:col-span-10 lg:gap-10"
     >
       <div class="w-48 lg:w-[20rem] lg:h-[20.7rem]">
         <div
           class="border-8 border-primary w-48 lg:w-[20rem] lg:h-[20.7rem] h-52 relative overflow-hidden"
         >
-          <img src="../assets/img/tenun.png" alt="" class="w-full h-full scale-110" />
+          <img src="../assets/img/tenun.webp" alt="image-tenun" title="image-tenun" class="w-full h-full scale-110" />
           <div
-            class="border-dashed border-4 m-3 border-white absolute top-0 left-0 right-0 bottom-0"
+            class="absolute top-0 bottom-0 left-0 right-0 m-3 border-4 border-white border-dashed"
           ></div>
         </div>
       </div>
@@ -43,9 +43,9 @@
         <div
           class="border-8 border-primary w-48 lg:w-[20rem] lg:h-[20.7rem] h-52 relative overflow-hidden"
         >
-          <img src="../assets/img/marwas.png" alt="" class="w-full h-full scale-110" />
+          <img src="../assets/img/marwas.webp" alt="image-marwas" title="image-marwas" class="w-full h-full scale-110" />
           <div
-            class="border-dashed border-4 m-3 border-white absolute top-0 left-0 right-0 bottom-0"
+            class="absolute top-0 bottom-0 left-0 right-0 m-3 border-4 border-white border-dashed"
           ></div>
         </div>
       </div>
@@ -53,9 +53,9 @@
         <div
           class="border-8 border-primary w-48 lg:w-[20rem] lg:h-[20.7rem] h-52 relative overflow-hidden"
         >
-          <img src="../assets/img/zapin.png" alt="" class="w-full h-full scale-110" />
+          <img src="../assets/img/zapin.webp" alt="image-zapin" title="image-zapin" class="w-full h-full scale-110" />
           <div
-            class="border-dashed border-4 m-3 border-white absolute top-0 left-0 right-0 bottom-0"
+            class="absolute top-0 bottom-0 left-0 right-0 m-3 border-4 border-white border-dashed"
           ></div>
         </div>
       </div>
@@ -64,12 +64,12 @@
           class="border-8 border-primary w-48 lg:w-[20rem] lg:h-[20.7rem] h-52 relative overflow-hidden"
         >
           <img
-            src="../assets/img/bolukomojo.png"
-            alt=""
+            src="../assets/img/bolukomojo.webp"
+            alt="image-bolukomojo" title="image-bolukomojo"
             class="w-full h-full scale-110"
           />
           <div
-            class="border-dashed border-4 m-3 border-white absolute top-0 left-0 right-0 bottom-0"
+            class="absolute top-0 bottom-0 left-0 right-0 m-3 border-4 border-white border-dashed"
           ></div>
         </div>
       </div>
@@ -77,9 +77,9 @@
         <div
           class="border-8 border-primary w-48 lg:w-[20rem] lg:h-[20.7rem] h-52 relative overflow-hidden"
         >
-          <img src="../assets/img/asampedas.png" alt="" class="w-full h-full scale-110" />
+          <img src="../assets/img/asampedas.webp" alt="image-asampedas" title="image-asampedas" class="w-full h-full scale-110" />
           <div
-            class="border-dashed border-4 m-3 border-white absolute top-0 left-0 right-0 bottom-0"
+            class="absolute top-0 bottom-0 left-0 right-0 m-3 border-4 border-white border-dashed"
           ></div>
         </div>
       </div>
@@ -87,48 +87,48 @@
         <div
           class="border-8 border-primary w-48 lg:w-[20rem] lg:h-[20.7rem] h-52 relative overflow-hidden"
         >
-          <img src="../assets/img/serindit.png" alt="" class="w-full h-full scale-110" />
+          <img src="../assets/img/serindit.webp" alt="image-serindit" title="image-serindit" class="w-full h-full scale-110" />
           <div
-            class="border-dashed border-4 m-3 border-white absolute top-0 left-0 right-0 bottom-0"
+            class="absolute top-0 bottom-0 left-0 right-0 m-3 border-4 border-white border-dashed"
           ></div>
         </div>
       </div>
     </div>
   </div>
 
-  <div class="py-5 md:py-5 grid overflow-hidden grid-cols-12 lg:mx-16  grid-rows-1 relative">
+  <div class="relative grid grid-cols-12 grid-rows-1 py-5 overflow-hidden md:py-5 lg:mx-16">
     <div
-      class="col-span-12 lg:col-span-10 lg:col-start-2 border-heading mx-5 md:mx-8 grid grid-cols-12 relative"
+      class="relative grid grid-cols-12 col-span-12 mx-5 lg:col-span-10 lg:col-start-2 border-heading md:mx-8"
     >
       <div
         class="absolute top-0 lg:-bottom-[33.5rem] -bottom-[32rem] z-50 md:-bottom-[26rem] lg:-right-11 lg:-left-11 -right-6 -left-6 flex justify-between items-center"
       >
         <button
-          class="size-14 lg:size-20 bg-primary flex justify-center items-center bg-opacity-30 rounded-full"
-          @click="backCard()"
+          class="flex items-center justify-center rounded-full size-14 lg:size-20 bg-primary bg-opacity-30"
+          @click="backCard()"  aria-label="back-card"
         >
-          <img src="../components/icons/left.svg" alt="" class="w-5 "  />
+          <img src="../components/icons/left.svg" alt="button-left" title="button-left" class="size-7 "  />
         </button>
         <button
-          class="size-14 lg:size-20 bg-primary flex justify-center items-center bg-opacity-30 rounded-full"
-          @click="nextCard()"
+          class="flex items-center justify-center rounded-full size-14 lg:size-20 bg-primary bg-opacity-30"
+          @click="nextCard()" aria-label="next-card"
         >
-          <img src="../components/icons/right.svg" alt="" class="w-5 "  />
+          <img src="../components/icons/right.svg" alt="button-right" title="button-right" class="size-7 "  />
         </button>
       </div>
     </div>
 
     <!-- card -->
     <div
-      class="col-span-12 animate__animated text-center border border-opacity-20 shadow-lg lg:col-span-10 lg:col-start-2 border-heading m-5 md:m-8 p-4 md:py-7 grid grid-cols-12 relative"
+      class="relative grid grid-cols-12 col-span-12 p-4 m-5 text-center border shadow-lg animate__animated border-opacity-20 lg:col-span-10 lg:col-start-2 border-heading md:m-8 md:py-7"
       v-show="number_card === 1"
 :class="[{ 'animate__backInRight': isRight }, 'animate__backInLeft']"
     >
       <div
-        class="col-span-12 md:col-span-6 content-center md:ps-7 lg:col-span-6 lg:col-start-1 lg:ps-20 text-center md:text-start"
+        class="content-center col-span-12 text-center md:col-span-6 md:ps-7 lg:col-span-6 lg:col-start-1 lg:ps-20 md:text-start"
       >
         <h4
-          class="text-lg font-semibold text-heading border-b-4 border-primary inline pb-2 lg:text-3xl"
+          class="inline pb-2 text-lg font-semibold border-b-4 text-heading border-primary lg:text-3xl"
         >
           {{ title_card }}
         </h4>
@@ -139,20 +139,20 @@
         </p>
       </div>
       <div
-        class="col-span-12 md:col-span-6 lg:col-span-4 lg:col-start-8 justify-self-center mt-5 md:mt-0"
+        class="col-span-12 mt-5 md:col-span-6 lg:col-span-4 lg:col-start-8 justify-self-center md:mt-0"
       >
         <div class="w-full mx-auto">
           <div
             class="border-8 md:border-[10px] border-primary w-48 lg:w-[26rem] lg:h-[26rem] h-52 md:w-72 md:h-72 relative overflow-hidden"
           >
-            <img src="../assets/img/zapin.png" alt="" class="w-full h-full scale-110" />
+            <img src="../assets/img/zapin.webp" alt="image-zapin" title="image-zapin" class="w-full h-full scale-110" />
             <div
-              class="border-dashed border-4 m-3 border-white absolute top-0 left-0 right-0 bottom-0"
+              class="absolute top-0 bottom-0 left-0 right-0 m-3 border-4 border-white border-dashed"
             ></div>
           </div>
         </div>
       </div>
-      <div class="col-span-12 mt-3 md:hidden block">
+      <div class="block col-span-12 mt-3 md:hidden">
         <p class="text-sm text-justify text-paragraph">
           {{ desc_card }}
         </p>
@@ -161,15 +161,15 @@
     <!-- endcard -->
     <!-- card -->
     <div
-      class="col-span-12 text-center border animate__animated border-opacity-20 shadow-lg lg:col-span-10 lg:col-start-2 border-heading m-5 md:m-8 p-4 md:py-7 grid grid-cols-12 relative"
+      class="relative grid grid-cols-12 col-span-12 p-4 m-5 text-center border shadow-lg animate__animated border-opacity-20 lg:col-span-10 lg:col-start-2 border-heading md:m-8 md:py-7"
 :class="[{ 'animate__backInRight': isRight }, 'animate__backInLeft']"
       v-show="number_card === 2"
     >
       <div
-        class="col-span-12 md:col-span-6 content-center md:ps-7 lg:col-span-6 lg:col-start-1 lg:ps-20 text-center md:text-start"
+        class="content-center col-span-12 text-center md:col-span-6 md:ps-7 lg:col-span-6 lg:col-start-1 lg:ps-20 md:text-start"
       >
         <h4
-          class="text-lg font-semibold text-heading border-b-4 border-primary inline pb-2 lg:text-3xl"
+          class="inline pb-2 text-lg font-semibold border-b-4 text-heading border-primary lg:text-3xl"
         >
           {{ title_card }}
         </h4>
@@ -180,20 +180,20 @@
         </p>
       </div>
       <div
-        class="col-span-12 md:col-span-6 lg:col-span-4 lg:col-start-8 justify-self-center mt-5 md:mt-0"
+        class="col-span-12 mt-5 md:col-span-6 lg:col-span-4 lg:col-start-8 justify-self-center md:mt-0"
       >
         <div class="w-full mx-auto">
           <div
             class="border-8 md:border-[10px] border-primary w-48 lg:w-[26rem] lg:h-[26rem] h-52 md:w-72 md:h-72 relative overflow-hidden"
           >
-            <img src="../assets/img/tenun.png" alt="" class="w-full h-full scale-110" />
+            <img src="../assets/img/tenun.webp" alt="image-tenun" title="image-tenun" class="w-full h-full scale-110" />
             <div
-              class="border-dashed border-4 m-3 border-white absolute top-0 left-0 right-0 bottom-0"
+              class="absolute top-0 bottom-0 left-0 right-0 m-3 border-4 border-white border-dashed"
             ></div>
           </div>
         </div>
       </div>
-      <div class="col-span-12 mt-3 md:hidden block">
+      <div class="block col-span-12 mt-3 md:hidden">
         <p class="text-sm text-justify text-paragraph">
          {{desc_card}}
         </p>
@@ -202,15 +202,15 @@
     <!-- endcard -->
     <!-- card -->
     <div
-      class="col-span-12 text-center border animate__animated border-opacity-20 shadow-lg lg:col-span-10 lg:col-start-2 border-heading m-5 md:m-8 p-4 md:py-7 grid grid-cols-12 relative"
+      class="relative grid grid-cols-12 col-span-12 p-4 m-5 text-center border shadow-lg animate__animated border-opacity-20 lg:col-span-10 lg:col-start-2 border-heading md:m-8 md:py-7"
 :class="[{ 'animate__backInRight': isRight }, 'animate__backInLeft']"
       v-show="number_card === 3"
     >
       <div
-        class="col-span-12 md:col-span-6 content-center md:ps-7 lg:col-span-6 lg:col-start-1 lg:ps-20 text-center md:text-start"
+        class="content-center col-span-12 text-center md:col-span-6 md:ps-7 lg:col-span-6 lg:col-start-1 lg:ps-20 md:text-start"
       >
         <h4
-          class="text-lg font-semibold text-heading border-b-4 border-primary inline pb-2 lg:text-3xl"
+          class="inline pb-2 text-lg font-semibold border-b-4 text-heading border-primary lg:text-3xl"
         >
          {{title_card}}
         </h4>
@@ -221,20 +221,20 @@
         </p>
       </div>
       <div
-        class="col-span-12 md:col-span-6 lg:col-span-4 lg:col-start-8 justify-self-center mt-5 md:mt-0"
+        class="col-span-12 mt-5 md:col-span-6 lg:col-span-4 lg:col-start-8 justify-self-center md:mt-0"
       >
         <div class="w-full mx-auto">
           <div
             class="border-8 md:border-[10px] border-primary w-48 lg:w-[26rem] lg:h-[26rem] h-52 md:w-72 md:h-72 relative overflow-hidden"
           >
-            <img src="../assets/img/marwas.png" alt="" class="w-full h-full scale-110" />
+            <img src="../assets/img/marwas.webp" alt="image-marwas" title="image-marwas" class="w-full h-full scale-110" />
             <div
-              class="border-dashed border-4 m-3 border-white absolute top-0 left-0 right-0 bottom-0"
+              class="absolute top-0 bottom-0 left-0 right-0 m-3 border-4 border-white border-dashed"
             ></div>
           </div>
         </div>
       </div>
-      <div class="col-span-12 mt-3 md:hidden block">
+      <div class="block col-span-12 mt-3 md:hidden">
         <p class="text-sm text-justify text-paragraph">
           {{ desc_card }}
         </p>
@@ -243,15 +243,15 @@
     <!-- endcard -->
     <!-- card -->
     <div
-      class="col-span-12 text-center border animate__animated border-opacity-20 shadow-lg lg:col-span-10 lg:col-start-2 border-heading m-5 md:m-8 p-4 md:py-7 grid grid-cols-12 relative"
+      class="relative grid grid-cols-12 col-span-12 p-4 m-5 text-center border shadow-lg animate__animated border-opacity-20 lg:col-span-10 lg:col-start-2 border-heading md:m-8 md:py-7"
 :class="[{ 'animate__backInRight': isRight }, 'animate__backInLeft']"
       v-show="number_card === 4"
     >
       <div
-        class="col-span-12 md:col-span-6 content-center md:ps-7 lg:col-span-6 lg:col-start-1 lg:ps-20 text-center md:text-start"
+        class="content-center col-span-12 text-center md:col-span-6 md:ps-7 lg:col-span-6 lg:col-start-1 lg:ps-20 md:text-start"
       >
         <h4
-          class="text-lg font-semibold text-heading border-b-4 border-primary inline pb-2 lg:text-3xl"
+          class="inline pb-2 text-lg font-semibold border-b-4 text-heading border-primary lg:text-3xl"
         >
          {{title_card}}
         </h4>
@@ -262,20 +262,20 @@
         </p>
       </div>
       <div
-        class="col-span-12 md:col-span-6 lg:col-span-4 lg:col-start-8 justify-self-center mt-5 md:mt-0"
+        class="col-span-12 mt-5 md:col-span-6 lg:col-span-4 lg:col-start-8 justify-self-center md:mt-0"
       >
         <div class="w-full mx-auto">
           <div
             class="border-8 md:border-[10px] border-primary w-48 lg:w-[26rem] lg:h-[26rem] h-52 md:w-72 md:h-72 relative overflow-hidden"
           >
-            <img src="../assets/img/bolukomojo.png" alt="" class="w-full h-full scale-110" />
+            <img src="../assets/img/bolukomojo.webp" alt="image-bolukomojo" title="image-bolukomojo" class="w-full h-full scale-110" />
             <div
-              class="border-dashed border-4 m-3 border-white absolute top-0 left-0 right-0 bottom-0"
+              class="absolute top-0 bottom-0 left-0 right-0 m-3 border-4 border-white border-dashed"
             ></div>
           </div>
         </div>
       </div>
-      <div class="col-span-12 mt-3 md:hidden block">
+      <div class="block col-span-12 mt-3 md:hidden">
         <p class="text-sm text-justify text-paragraph">
           {{ desc_card }}
         </p>
@@ -284,15 +284,15 @@
     <!-- endcard -->
     <!-- card -->
     <div
-      class="col-span-12 text-center border animate__animated border-opacity-20 shadow-lg lg:col-span-10 lg:col-start-2 border-heading m-5 md:m-8 p-4 md:py-7 grid grid-cols-12 relative"
+      class="relative grid grid-cols-12 col-span-12 p-4 m-5 text-center border shadow-lg animate__animated border-opacity-20 lg:col-span-10 lg:col-start-2 border-heading md:m-8 md:py-7"
 :class="[{ 'animate__backInRight': isRight }, 'animate__backInLeft']"
       v-show="number_card === 5"
     >
       <div
-        class="col-span-12 md:col-span-6 content-center md:ps-7 lg:col-span-6 lg:col-start-1 lg:ps-20 text-center md:text-start"
+        class="content-center col-span-12 text-center md:col-span-6 md:ps-7 lg:col-span-6 lg:col-start-1 lg:ps-20 md:text-start"
       >
         <h4
-          class="text-lg font-semibold text-heading border-b-4 border-primary inline pb-2 lg:text-3xl"
+          class="inline pb-2 text-lg font-semibold border-b-4 text-heading border-primary lg:text-3xl"
         >
          {{title_card}}
         </h4>
@@ -303,20 +303,20 @@
         </p>
       </div>
       <div
-        class="col-span-12 md:col-span-6 lg:col-span-4 lg:col-start-8 justify-self-center mt-5 md:mt-0"
+        class="col-span-12 mt-5 md:col-span-6 lg:col-span-4 lg:col-start-8 justify-self-center md:mt-0"
       >
         <div class="w-full mx-auto">
           <div
             class="border-8 md:border-[10px] border-primary w-48 lg:w-[26rem] lg:h-[26rem] h-52 md:w-72 md:h-72 relative overflow-hidden"
           >
-            <img src="../assets/img/asampedas.png" alt="" class="w-full h-full scale-110" />
+            <img src="../assets/img/asampedas.webp" alt="image-asampedas" title="image-asampedas" class="w-full h-full scale-110" />
             <div
-              class="border-dashed border-4 m-3 border-white absolute top-0 left-0 right-0 bottom-0"
+              class="absolute top-0 bottom-0 left-0 right-0 m-3 border-4 border-white border-dashed"
             ></div>
           </div>
         </div>
       </div>
-      <div class="col-span-12 mt-3 md:hidden block">
+      <div class="block col-span-12 mt-3 md:hidden">
         <p class="text-sm text-justify text-paragraph">
           {{ desc_card }}
         </p>
@@ -325,15 +325,15 @@
     <!-- endcard -->
     <!-- card -->
     <div
-      class="col-span-12 text-center border animate__animated border-opacity-20 shadow-lg lg:col-span-10 lg:col-start-2 border-heading m-5 md:m-8 p-4 md:py-7 grid grid-cols-12 relative"
+      class="relative grid grid-cols-12 col-span-12 p-4 m-5 text-center border shadow-lg animate__animated border-opacity-20 lg:col-span-10 lg:col-start-2 border-heading md:m-8 md:py-7"
 :class="[{ 'animate__backInRight': isRight }, 'animate__backInLeft']"
       v-show="number_card === 6"
     >
       <div
-        class="col-span-12 md:col-span-6 content-center md:ps-7 lg:col-span-6 lg:col-start-1 lg:ps-20 text-center md:text-start"
+        class="content-center col-span-12 text-center md:col-span-6 md:ps-7 lg:col-span-6 lg:col-start-1 lg:ps-20 md:text-start"
       >
         <h4
-          class="text-lg font-semibold text-heading border-b-4 border-primary inline pb-2 lg:text-3xl"
+          class="inline pb-2 text-lg font-semibold border-b-4 text-heading border-primary lg:text-3xl"
         >
          {{title_card}}
         </h4>
@@ -344,20 +344,20 @@
         </p>
       </div>
       <div
-        class="col-span-12 md:col-span-6 lg:col-span-4 lg:col-start-8 justify-self-center mt-5 md:mt-0"
+        class="col-span-12 mt-5 md:col-span-6 lg:col-span-4 lg:col-start-8 justify-self-center md:mt-0"
       >
         <div class="w-full mx-auto">
           <div
             class="border-8 md:border-[10px] border-primary w-48 lg:w-[26rem] lg:h-[26rem] h-52 md:w-72 md:h-72 relative overflow-hidden"
           >
-            <img src="../assets/img/serindit.png" alt="" class="w-full h-full scale-110" />
+            <img src="../assets/img/serindit.webp" alt="image-srindit" title="image-srindit" class="w-full h-full scale-110" />
             <div
-              class="border-dashed border-4 m-3 border-white absolute top-0 left-0 right-0 bottom-0"
+              class="absolute top-0 bottom-0 left-0 right-0 m-3 border-4 border-white border-dashed"
             ></div>
           </div>
         </div>
       </div>
-      <div class="col-span-12 mt-3 md:hidden block">
+      <div class="block col-span-12 mt-3 md:hidden">
         <p class="text-sm text-justify text-paragraph">
           {{ desc_card }}
         </p>
@@ -365,10 +365,10 @@
     </div>
     <!-- endcard -->
 
-    <div class="col-span-12 flex justify-center items-center gap-3 lg:mt-5 mt-2 md:mt-2">
-      <div class="size-4 bg-primary bg-opacity-60 rounded-full cursor-pointer"  @click="backCard()"></div>
-      <div class="size-5 bg-primary bg-opacity-60 rounded-full cursor-pointer"></div>
-      <div class="size-4 bg-primary bg-opacity-60 rounded-full cursor-pointer"  @click="nextCard()"></div>
+    <div class="flex items-center justify-center col-span-12 gap-3 mt-2 lg:mt-5 md:mt-2">
+      <div class="rounded-full cursor-pointer size-4 bg-primary bg-opacity-60"  @click="backCard()"></div>
+      <div class="rounded-full cursor-pointer size-5 bg-primary bg-opacity-60"></div>
+      <div class="rounded-full cursor-pointer size-4 bg-primary bg-opacity-60"  @click="nextCard()"></div>
     </div>
   </div>
 </template>
