@@ -57,17 +57,17 @@
               <span class="text-[1rem] text-primary font-semibold">Ahmad Sutrio</span>
             </a>
             <a href="" class="flex items-center gap-2">
-              <img src="../components/icons/ri_instagram-fill.svg" alt="instagram" title="instagram" class="size-12" />
+              <img  loading="lazy" src="../components/icons/ri_instagram-fill.svg" alt="instagram" title="instagram" class="size-12" />
               <span class="text-[1rem] text-primary font-semibold">With_yoo</span>
             </a>
           </div>
           <div class="">
             <a href="" class="flex items-center gap-2">
-              <img src="../components/icons/ri_github-fill.svg" alt="github" title="github" class="size-12" />
+              <img  loading="lazy" src="../components/icons/ri_github-fill.svg" alt="github" title="github" class="size-12" />
               <span class="text-[1rem] text-primary font-semibold">ahmadsutrio</span>
             </a>
             <a href="" class="flex items-center gap-2">
-              <img src="../components/icons/mdi_linkedin.svg" alt="linkedin" title="linkedin" class="size-12" />
+              <img  loading="lazy" src="../components/icons/mdi_linkedin.svg" alt="linkedin" title="linkedin" class="size-12" />
               <span class="text-[1rem] text-primary font-semibold">ahmadsutrio</span>
             </a>
           </div>

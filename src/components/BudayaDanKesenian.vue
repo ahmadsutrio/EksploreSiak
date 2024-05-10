@@ -33,7 +33,7 @@
         <div
           class="border-8 border-primary w-48 lg:w-[20rem] lg:h-[20.7rem] h-52 relative overflow-hidden"
         >
-          <img src="../assets/img/tenun.webp" alt="image-tenun" title="image-tenun" class="w-full h-full scale-110" />
+          <img  loading="lazy" src="../assets/img/tenun.webp" alt="image-tenun" title="image-tenun" class="w-full h-full scale-110" />
           <div
             class="absolute top-0 bottom-0 left-0 right-0 m-3 border-4 border-white border-dashed"
           ></div>
@@ -43,7 +43,7 @@
         <div
           class="border-8 border-primary w-48 lg:w-[20rem] lg:h-[20.7rem] h-52 relative overflow-hidden"
         >
-          <img src="../assets/img/marwas.webp" alt="image-marwas" title="image-marwas" class="w-full h-full scale-110" />
+          <img  loading="lazy" src="../assets/img/marwas.webp" alt="image-marwas" title="image-marwas" class="w-full h-full scale-110" />
           <div
             class="absolute top-0 bottom-0 left-0 right-0 m-3 border-4 border-white border-dashed"
           ></div>
@@ -53,7 +53,7 @@
         <div
           class="border-8 border-primary w-48 lg:w-[20rem] lg:h-[20.7rem] h-52 relative overflow-hidden"
         >
-          <img src="../assets/img/zapin.webp" alt="image-zapin" title="image-zapin" class="w-full h-full scale-110" />
+          <img  loading="lazy" src="../assets/img/zapin.webp" alt="image-zapin" title="image-zapin" class="w-full h-full scale-110" />
           <div
             class="absolute top-0 bottom-0 left-0 right-0 m-3 border-4 border-white border-dashed"
           ></div>
@@ -77,7 +77,7 @@
         <div
           class="border-8 border-primary w-48 lg:w-[20rem] lg:h-[20.7rem] h-52 relative overflow-hidden"
         >
-          <img src="../assets/img/asampedas.webp" alt="image-asampedas" title="image-asampedas" class="w-full h-full scale-110" />
+          <img  loading="lazy" src="../assets/img/asampedas.webp" alt="image-asampedas" title="image-asampedas" class="w-full h-full scale-110" />
           <div
             class="absolute top-0 bottom-0 left-0 right-0 m-3 border-4 border-white border-dashed"
           ></div>
@@ -87,7 +87,7 @@
         <div
           class="border-8 border-primary w-48 lg:w-[20rem] lg:h-[20.7rem] h-52 relative overflow-hidden"
         >
-          <img src="../assets/img/serindit.webp" alt="image-serindit" title="image-serindit" class="w-full h-full scale-110" />
+          <img  loading="lazy" src="../assets/img/serindit.webp" alt="image-serindit" title="image-serindit" class="w-full h-full scale-110" />
           <div
             class="absolute top-0 bottom-0 left-0 right-0 m-3 border-4 border-white border-dashed"
           ></div>
@@ -107,13 +107,13 @@
           class="flex items-center justify-center rounded-full size-14 lg:size-20 bg-primary bg-opacity-30"
           @click="backCard()"  aria-label="back-card"
         >
-          <img src="../components/icons/left.svg" alt="button-left" title="button-left" class="size-7 "  />
+          <img  loading="lazy" src="../components/icons/left.svg" alt="button-left" title="button-left" class="size-7 "  />
         </button>
         <button
           class="flex items-center justify-center rounded-full size-14 lg:size-20 bg-primary bg-opacity-30"
           @click="nextCard()" aria-label="next-card"
         >
-          <img src="../components/icons/right.svg" alt="button-right" title="button-right" class="size-7 "  />
+          <img  loading="lazy" src="../components/icons/right.svg" alt="button-right" title="button-right" class="size-7 "  />
         </button>
       </div>
     </div>
@@ -145,7 +145,7 @@
           <div
             class="border-8 md:border-[10px] border-primary w-48 lg:w-[26rem] lg:h-[26rem] h-52 md:w-72 md:h-72 relative overflow-hidden"
           >
-            <img src="../assets/img/zapin.webp" alt="image-zapin" title="image-zapin" class="w-full h-full scale-110" />
+            <img  loading="lazy" src="../assets/img/zapin.webp" alt="image-zapin" title="image-zapin" class="w-full h-full scale-110" />
             <div
               class="absolute top-0 bottom-0 left-0 right-0 m-3 border-4 border-white border-dashed"
             ></div>
@@ -186,7 +186,7 @@
           <div
             class="border-8 md:border-[10px] border-primary w-48 lg:w-[26rem] lg:h-[26rem] h-52 md:w-72 md:h-72 relative overflow-hidden"
           >
-            <img src="../assets/img/tenun.webp" alt="image-tenun" title="image-tenun" class="w-full h-full scale-110" />
+            <img  loading="lazy" src="../assets/img/tenun.webp" alt="image-tenun" title="image-tenun" class="w-full h-full scale-110" />
             <div
               class="absolute top-0 bottom-0 left-0 right-0 m-3 border-4 border-white border-dashed"
             ></div>
@@ -227,7 +227,7 @@
           <div
             class="border-8 md:border-[10px] border-primary w-48 lg:w-[26rem] lg:h-[26rem] h-52 md:w-72 md:h-72 relative overflow-hidden"
           >
-            <img src="../assets/img/marwas.webp" alt="image-marwas" title="image-marwas" class="w-full h-full scale-110" />
+            <img  loading="lazy" src="../assets/img/marwas.webp" alt="image-marwas" title="image-marwas" class="w-full h-full scale-110" />
             <div
               class="absolute top-0 bottom-0 left-0 right-0 m-3 border-4 border-white border-dashed"
             ></div>
@@ -268,7 +268,7 @@
           <div
             class="border-8 md:border-[10px] border-primary w-48 lg:w-[26rem] lg:h-[26rem] h-52 md:w-72 md:h-72 relative overflow-hidden"
           >
-            <img src="../assets/img/bolukomojo.webp" alt="image-bolukomojo" title="image-bolukomojo" class="w-full h-full scale-110" />
+            <img  loading="lazy" src="../assets/img/bolukomojo.webp" alt="image-bolukomojo" title="image-bolukomojo" class="w-full h-full scale-110" />
             <div
               class="absolute top-0 bottom-0 left-0 right-0 m-3 border-4 border-white border-dashed"
             ></div>
@@ -309,7 +309,7 @@
           <div
             class="border-8 md:border-[10px] border-primary w-48 lg:w-[26rem] lg:h-[26rem] h-52 md:w-72 md:h-72 relative overflow-hidden"
           >
-            <img src="../assets/img/asampedas.webp" alt="image-asampedas" title="image-asampedas" class="w-full h-full scale-110" />
+            <img  loading="lazy" src="../assets/img/asampedas.webp" alt="image-asampedas" title="image-asampedas" class="w-full h-full scale-110" />
             <div
               class="absolute top-0 bottom-0 left-0 right-0 m-3 border-4 border-white border-dashed"
             ></div>
@@ -350,7 +350,7 @@
           <div
             class="border-8 md:border-[10px] border-primary w-48 lg:w-[26rem] lg:h-[26rem] h-52 md:w-72 md:h-72 relative overflow-hidden"
           >
-            <img src="../assets/img/serindit.webp" alt="image-srindit" title="image-srindit" class="w-full h-full scale-110" />
+            <img  loading="lazy" src="../assets/img/serindit.webp" alt="image-srindit" title="image-srindit" class="w-full h-full scale-110" />
             <div
               class="absolute top-0 bottom-0 left-0 right-0 m-3 border-4 border-white border-dashed"
             ></div>
