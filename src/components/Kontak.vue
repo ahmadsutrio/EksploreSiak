@@ -47,7 +47,7 @@
         <h4 class="mt-5 mb-3 text-xl font-semibold text-primary md:mt-0">Sosial Media</h4>
         <div class="flex justify-between md:block lg:flex">
           <div class="">
-            <a href="" class="flex items-center gap-2">
+            <a href="https://web.facebook.com/ahmad.sutrio.5/" target="_blank" class="flex items-center gap-2">
               <img
                 src="../components/icons/ic_baseline-facebook.svg"
                 alt="facebook"
@@ -56,17 +56,17 @@
               />
               <span class="text-[1rem] text-primary font-semibold">Ahmad Sutrio</span>
             </a>
-            <a href="" class="flex items-center gap-2">
+            <a href="https://www.instagram.com/with_yooo/" target="_blank" class="flex items-center gap-2">
               <img  loading="lazy" src="../components/icons/ri_instagram-fill.svg" alt="instagram" title="instagram" class="size-12" />
-              <span class="text-[1rem] text-primary font-semibold">With_yoo</span>
+              <span class="text-[1rem] text-primary font-semibold">With_yooo</span>
             </a>
           </div>
           <div class="">
-            <a href="" class="flex items-center gap-2">
+            <a href="https://github.com/ahmadsutrio" target="_blank" class="flex items-center gap-2">
               <img  loading="lazy" src="../components/icons/ri_github-fill.svg" alt="github" title="github" class="size-12" />
               <span class="text-[1rem] text-primary font-semibold">ahmadsutrio</span>
             </a>
-            <a href="" class="flex items-center gap-2">
+            <a href="https://www.linkedin.com/in/ahmad-sutrio-040339226/" target="_blank" class="flex items-center gap-2">
               <img  loading="lazy" src="../components/icons/mdi_linkedin.svg" alt="linkedin" title="linkedin" class="size-12" />
               <span class="text-[1rem] text-primary font-semibold">ahmadsutrio</span>
             </a>
