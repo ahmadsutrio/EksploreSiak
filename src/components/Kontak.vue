@@ -82,7 +82,7 @@
         Web design and development</span
       >
       <span class="hidden text-sm text-white md:block"
-        >©️ COpyright 2024 with_yoo  |  Web design and development</span
+        >©️ Copyright 2024 with_yoo  |  Web design and development</span
       >
     </div>
 </template>
